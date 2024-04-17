@@ -1,3 +1,20 @@
 $hatter: #EADBC8;
 $betu: #102C57;
 $keret: #DAC0A3;
+
+.dog {
+    height: 100vh;
+    background-color: $hatter;
+    color: $betu;
+  
+    button {
+      background-color: $betu;
+      color: white;
+    }
+  
+    .dog__image {
+      width: 90%;
+      max-width: 500px;
+      border: 12px solid $keret;
+    }
+  }
